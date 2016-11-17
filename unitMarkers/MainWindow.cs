@@ -13,4 +13,9 @@ public partial class MainWindow : Gtk.Window
 		Application.Quit();
 		a.RetVal = true;
 	}
+
+	protected void click(object sender, EventArgs e)
+	{
+		lblName.Text = "Hello";
+	}
 }

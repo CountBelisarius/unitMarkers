@@ -30,7 +30,7 @@ namespace belisarius.unitMarkers
 
 			set
 			{
-				if (value < 1 || value > 5000)
+				if (value < 40 || value > 5000)
 				{
 					throw new OverflowException();
 				}
