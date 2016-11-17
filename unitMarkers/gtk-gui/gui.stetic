@@ -14,7 +14,38 @@
     <property name="BorderWidth">3</property>
     <signal name="DeleteEvent" handler="OnDeleteEvent" />
     <child>
-      <placeholder />
+      <widget class="Gtk.Fixed" id="fixed1">
+        <property name="MemberName" />
+        <property name="HasWindow">False</property>
+        <child>
+          <widget class="Gtk.Label" id="lblName">
+            <property name="MemberName" />
+            <property name="Xalign">0</property>
+            <property name="LabelProp" translatable="yes">Name</property>
+          </widget>
+          <packing>
+            <property name="X">40</property>
+            <property name="Y">40</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Button" id="btnCreateUnit">
+            <property name="MemberName" />
+            <property name="CanFocus">True</property>
+            <property name="Type">TextOnly</property>
+            <property name="Label" translatable="yes">Create Unit</property>
+            <property name="UseUnderline">True</property>
+            <signal name="Clicked" handler="click" />
+          </widget>
+          <packing>
+            <property name="X">40</property>
+            <property name="Y">203</property>
+          </packing>
+        </child>
+        <child>
+          <placeholder />
+        </child>
+      </widget>
     </child>
   </widget>
 </stetic-interface>
