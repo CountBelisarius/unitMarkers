@@ -1,7 +1,7 @@
 ﻿using System;
 using Gtk;
 
-namespace unitMarkers
+namespace belisarius.unitMarkers
 {
 	class MainClass
 	{

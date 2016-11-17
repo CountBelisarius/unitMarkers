@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProjectGuid>{E39E85CF-69EB-44E0-9E92-4892674F4FBD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>unitMarkers</RootNamespace>
+    <RootNamespace>belisarius.unitMarkers</RootNamespace>
     <AssemblyName>unitMarkers</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
@@ -59,6 +59,7 @@
     <Compile Include="gtk-gui\MainWindow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unit.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
